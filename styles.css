@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Configuración general del cuerpo */
+body {
+    background-color: #FFBE88; /* El color que tenías en el HTML */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 40px;
+    padding: 20px;
+}
+
+/* Estilos para los encabezados */
+h1 {
+    color: #182CDE;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #182CDE;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #182CDE;
+    margin-top: 30px;
+}
+
+/* Estilo para los párrafos de información */
+p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* --- INTERACTIVIDAD EN HIPERVÍNCULOS --- */
+a {
+    color: #182CDE;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Suaviza la transición */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Efecto al pasar el mouse por el link */
+a:hover {
+    background-color: #182CDE;
+    color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* --- INTERACTIVIDAD EN IMÁGENES --- */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0;
+    transition: transform 0.4s ease, border 0.3s ease;
+    border: 3px solid transparent;
+}
+
+/* Efecto al pasar el mouse por la imagen */
+img:hover {
+    transform: scale(1.05); /* La imagen crece un poco */
+    border: 3px solid #182CDE;
+    cursor: pointer;
+    filter: brightness(1.1); /* Brilla un poco más */
+}
